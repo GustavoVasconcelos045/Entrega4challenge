@@ -5,16 +5,16 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <header className="p-4">
-            <h1>GIF motors</h1>
+            <h1 className="text-5xl font-bold mb-4">GIF Motors</h1>
             <nav className="flex gap-4 justify-center">
                 <Link href="/" legacyBehavior>
-                    <a>Início</a>
+                    <a className="text-2xl font-bold mb-4">Início</a>
                 </Link>
                 <Link href="/integrantes" legacyBehavior>
-                    <a>Integrantes</a>
+                    <a className="text-2xl font-bold mb-4">Integrantes</a>
                 </Link>
                 <Link href="/duvidas" legacyBehavior>
-                    <a>Dúvidas</a>
+                    <a className="text-2xl font-bold mb-4">Dúvidas</a>
                 </Link>
             </nav>
         </header>

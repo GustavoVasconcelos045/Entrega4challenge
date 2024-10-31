@@ -8,20 +8,20 @@ export default function Home() {
       <div className="mt-6 space-y-4">
         <Link
           href="/cadastro-cliente"
-          className="block p-4 bg-gray-200 rounded-lg shadow-md">
+          className="block p-4 bg-white rounded-lg shadow-md">
           Cadastrar Cliente
         </Link>
         <Link
           href="/cadastro-carro"
-          className="block p-4 bg-gray-200 rounded-lg shadow-md">
+          className="block p-4 bg-white rounded-lg shadow-md">
           Cadastrar Carro e Descrição do Problema
         </Link>
         <Link
           href="/integrantes"
-          className="block p-4 bg-gray-200 rounded-lg shadow-md">
+          className="block p-4 bg-white rounded-lg shadow-md">
           Integrantes do Projeto
         </Link>
-        <Link href="/duvidas" className="block p-4 bg-gray-200 rounded-lg shadow-md">
+        <Link href="/duvidas" className="block p-4 bg-white rounded-lg shadow-md">
           Dúvidas
         </Link>
       </div>
