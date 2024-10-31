@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <header className="p-4">
-            <h1>Portfólio Acadêmico</h1>
+            <h1>GIF motors</h1>
             <nav className="flex gap-4 justify-center">
                 <Link href="/" legacyBehavior>
                     <a>Início</a>
@@ -13,8 +13,8 @@ export default function Header() {
                 <Link href="/integrantes" legacyBehavior>
                     <a>Integrantes</a>
                 </Link>
-                <Link href="/trabalhos" legacyBehavior>
-                    <a>Trabalhos</a>
+                <Link href="/duvidas" legacyBehavior>
+                    <a>Dúvidas</a>
                 </Link>
             </nav>
         </header>
