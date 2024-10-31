@@ -1,8 +1,9 @@
+/* src/app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-color: theme('colors.grayLight');
+  background-color: theme('colors.blue.100');
   font-family: Arial, sans-serif;
 }

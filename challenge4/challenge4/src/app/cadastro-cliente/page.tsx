@@ -1,8 +1,11 @@
+"use client";
 import { useState } from 'react';
+
 
 export default function CadastroCliente() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
+  const [cpf, setCpf] = useState('');
   
   const handleCadastro = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
@@ -25,6 +28,13 @@ export default function CadastroCliente() {
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          className="w-full p-2 border rounded"
+        />
+         <input
+          type="CPF"
+          placeholder="Cpf"
+          value={cpf}
+          onChange={(e) => setCpf(e.target.value)}
           className="w-full p-2 border rounded"
         />
         <button type="submit" className="w-full p-2 bg-blue-500 text-white rounded">Cadastrar</button>
