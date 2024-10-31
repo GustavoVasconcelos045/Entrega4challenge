@@ -4,21 +4,21 @@ import Image from 'next/image';
 const participantes = [
   {
     nome: 'Felipe - RM558916',
-    foto: '/images/felipe.png', 
+    foto: '/image/felipe.png', 
     github: 'https://github.com/FelipeSants08', 
-    githubIcon: '/images/github-icon.png', 
+    githubIcon: '/image/github-icon.png', 
   },
   {
     nome: 'Gustavo - RM558463',
-    foto: '/images/gustavo.png',
+    foto: '/image/gustavo.png',
     github: 'https://github.com/GustavoVasconcelos045', 
-    githubIcon: '/images/github-icon.png',
+    githubIcon: '/image/github-icon.png',
   },
   {
     nome: 'Igor - RM558532',
-    foto: '/images/igor.png', 
+    foto: '/image/igor.png', 
     github: 'https://github.com/Igorfelicori', 
-    githubIcon: '/images/github-icon.png', 
+    githubIcon: '/image/github-icon.png', 
   },
 ];
 
