@@ -4,11 +4,8 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-<<<<<<< HEAD
         <header className="p-4 h-[20vh]">
-=======
         <header className="p-4">
->>>>>>> 2a4c83251ab72c601c5438deb419906fe60f05da
             <h1 className="text-5xl font-bold mb-4">GIF Motors</h1>
             <nav className="flex gap-4 justify-center">
                 <Link href="/" legacyBehavior>
@@ -21,6 +18,7 @@ export default function Header() {
                     <a className="text-2xl font-bold mb-4">Dúvidas</a>
                 </Link>
             </nav>
+        </header>   
         </header>
     );
 }
